@@ -1,0 +1,250 @@
+
+*{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400px;
+    margin: 0px;
+    padding: 0px;
+
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+}
+.navbar
+{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-left: 125px;
+    font-weight: bold;
+    align-items: center;/*to verticallyplace child elementscentr*/
+}
+ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 25px;
+}
+.body{
+    margin-left: 8%;
+    margin-top: 10%;
+
+}
+.body p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.body a{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    padding: 10 px 30px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.link
+{
+    font-size: 21px;
+    text-decoration: none;
+    font-family: 800;
+    color: black;
+
+}
+.link:hover
+{
+    color: red;
+}
+.images
+{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    
+}
+.imagegroup
+{
+    position:absolute;
+    height: 100%;
+    bottom: 0px;
+    left:50%;
+    transform: translate(-50%);
+    transition: bottom 1s,left 2s;;
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #girl{
+    left: 40%;
+}
+#about
+{
+    margin: 20% 8% 0px 8%;
+}
+
+.heading{
+    text-align: center;
+}
+.about_container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+}
+.about_details
+{
+    font-size: 18px;
+}
+.information{
+    margin-top: 20px;
+
+}
+.info_box
+{
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+.info_box span
+{
+    margin-left: 20px;
+}
+#skills
+{
+    margin: 8% 8% 0px 8%;
+}
+.skill-container
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    margin-top: 4%;
+}
+.progress-bar
+{
+    margin-top: 25px;
+}
+.bar-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.bar-container h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bar-container span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bar{
+
+
+
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+}
+.html-bar{
+    background-color: orange;
+    width: 95%;
+}
+.css-bar{
+    background-color: orange;
+    width: 80%;
+}
+.js-bar{
+    background-color: orange;
+    width: 70%;
+}
+.react-bar{
+    background-color: orange;
+    width: 60%;
+}
+
+.skill-container img{
+    width: 91%;
+    margin-left: 40px;
+
+}
+#contact
+{
+    margin: 8% 8% 0px 8%;
+}
+.icon_set
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.icon,.up-arrow{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+display: flex;
+     border-radius: 50%;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, yellow,red);
+    color: white;
+}
+.icon:hover i{
+    color: white;
+    animation: shake 0.75s;
+
+}
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%
+    {
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    
+    }
+    40%
+    {
+        transform: rotate(-15deg);
+    }
+}
+    footer
+    {
+        margin: 3rem 0px;
+
+    }
+    #pstyle
+
+    {
+        text-align:center;
+        font-weight: 600;
+
+    }
+    .up-arrow
+    {
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background-image: linear-gradient(to bottom right, yellow,red);
+    }
+    html{
+        scroll-behavior: smooth;
+    }
